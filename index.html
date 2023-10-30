@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image recognition</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <h1>Face Recognition System</h1>
+    <h2>FRS</h2>
+    <h3>Note: if minimum 70% in accuracy is not shown then. 1. try again. 2. might be a different person. 3. change the AI's POV.</h3>
+    <br>
+    <h1>What the AI is teached to recognize</h1>
+    <h2>Father</h2>
+    <hr width=1300px>
+    <h2>Mother</h2>
+    <hr width=1300px>
+    <h2>Brother</h2>
+    <hr width=1300px>
+    <h2>little brother</h2>
+    <hr width=1300px>
+    <br>
+    <h1>What the computer sees -</h1>
+    <div id="camera"><p style="color: white; text-align: center; font-weight: bolder;">N/A</p></div>
+    <h1>what the computer took a picture of:</h1>
+    <div id="result"><p style="color: white; text-align: center; font-weight: bolder;">N/A</p></div>
+    <br>
+    <button id="capture" onclick="take_snapshot();">Capture image</button>
+    <br>
+    <br>
+    <button id="identify" onclick="identify();">Identify person</button>
+    <hr width="200px">
+    <h2>Person: <span id="person_name">N/A</span></h2>
+    <h2>Accuracy of Person: <span id="Accuracy_percent">N/A</span></h2>
+    <br>
+    <h3>check out the teached machine!</h3>
+    <a href="https://teachablemachine.withgoogle.com/models/quEJaOGol/">Click here to see the FRS model!</a>
+    <script src="main.js"></script>
+</body>
+</html>

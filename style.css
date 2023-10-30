@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: pink;
+    font-family: tahoma;
+
+}
+
+#camera{
+    width: 350px;
+    height: 300px;
+    border:7px ridge grey;
+    background-color: black;
+    margin-left: 500px;
+}
+
+h1{
+    background-color: white;
+    border-radius: 1300px;
+    width: 500px;
+    margin-left: 415px;
+}
+
+h3{
+    background-color: white;
+    color: red;
+    text-align: center;
+    width: 1300px;
+}
+
+button{
+    font-size: xx-large;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: black;
+    border: 4px ridge black;
+    border-radius: 10px;
+    cursor: pointer;
+}
